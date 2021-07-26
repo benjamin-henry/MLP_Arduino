@@ -2,7 +2,7 @@
 
 
 void extract1dfrom2d(float* src, float* dst, unsigned int row, unsigned int width) {
-     float *ptrOut = (float*)dst;
+    float *ptrOut = (float*)dst;
     for (int i = 0; i < width; i++) {
         *ptrOut++ = *(src + row*width + i);
     }
