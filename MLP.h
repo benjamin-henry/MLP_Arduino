@@ -8,7 +8,7 @@
 #include "Dense.h"
 #include "Utils.h"
 #include "Losses.h"
-#include "EPPROM.h"
+#include "EEPROM.h"
 
 #ifdef __cplusplus
 extern "C" {
