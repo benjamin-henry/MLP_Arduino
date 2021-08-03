@@ -1,3 +1,11 @@
+Network config : 
+```c
+unsigned int layers_cfg[][2] = {
+  {12, Relu},
+  {3, Linear},
+};
+```
+
 Accelerometer dataset :
 ```c
 float X[][3] = {
@@ -20,7 +28,6 @@ float y_true[][3] = {
 ```
 
 Output : 
-
 ```
 batch	loss
 100	0.000021411317
